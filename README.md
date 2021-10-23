@@ -17,7 +17,7 @@ yarn add nodemon
 ## Clonar Repositorio
 
 ```bash
-git clone ...
+git clone https://github.com/GuillermoEchague/Project_Node_service_Escalab.git
 ```
 
 ## Recontruir modulos de Node
