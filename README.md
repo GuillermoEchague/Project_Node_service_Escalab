@@ -72,13 +72,13 @@ heroku logs -n 100 --tail
 ```
 
 ## Producción 
-
+    Se obtiene la ruta raíz para el uso de la API.
 ```bash
-https://imageniacellphone.herokuapp.com/....
+    https://escalab-node.herokuapp.com/
 ```
 
 ## Documentación Postman
 
 ```bash
-https://documenter.getpostman.com/view/7460598/UV5ZAvwU
+    https://documenter.getpostman.com/view/7460598/UV5ZAvwU
 ```
