@@ -6,7 +6,9 @@ const { API_VERSION, IP_SERVER, PORT_DB } = require("./config");
 mongoose.set("useFindAndModify", false);
 mongoose.set("useCreateIndex", true);
 
-mongoose.connect(`mongodb://${IP_SERVER}:${PORT_DB}/pruebadb`,
+mongoose.connect(
+  //`mongodb://${IP_SERVER}:${PORT_DB}/pruebadb`,
+  `mongodb+srv://pruebas:qACK9wE2aHyZLisu@cluster0.ancu4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
 { useNewUrlParser: true, useUnifiedTopology: true },
 (err, res) => {
   if (err) {
